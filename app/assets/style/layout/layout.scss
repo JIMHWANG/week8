@@ -1,0 +1,58 @@
+header{
+    .header-Trademark{       
+        width: 96px;
+        height: 31px; 
+        a{
+            background: url(../../../assets/images/DOYOGA-logo.png) no-repeat;
+            background-size: 96px 31px;
+            text-indent: 101%;
+            white-space: nowrap;
+            overflow: hidden;
+         }
+    }
+    .header-nav{
+        width: 256px;
+    }
+
+    .header-contact-order{
+        width: 208px;
+        ul{
+            li:hover{
+                background-color: #907A7B;
+                color: #fff;
+                a:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .footer-coupon{
+        .footer-coupon-input{
+            input[type="email"]{
+                width: 278px;
+            }
+        }
+    }
+    .footer-list{
+        .footer-list-info{
+            height: 127px;
+            img{
+                width: 96px;
+                height: 31px;
+            }
+            ul{
+                height: 88px;
+            }
+        }
+    }
+    .footer-list-icon{
+        width: 88px;
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

@@ -67,9 +67,11 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #00cc99; // $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
+$primary:       #F5F0E7; // $blue !default;
+$secondary:     #707070 !default;
+$third:         #907A7B !default;
+$fourth:        #C0A4A5 !default;
+$success:       #fff !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -81,6 +83,8 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
+  "third":      $third,
+  "fourth":      $fourth,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -255,6 +259,9 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * 1.25,
+  7: $spacer * 5.3125,
+  8: $spacer * 2,
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
