@@ -13994,7 +13994,7 @@ header .header-Trademark {
 }
 
 header .header-Trademark a {
-  background: url(../../images/DOYOGA-logo.png);
+  background: url(../images/DOYOGA-logo.png) no-repeat;
   background-size: 96px 31px;
   text-indent: 101%;
   white-space: nowrap;
@@ -14052,7 +14052,7 @@ footer .footer-list-icon img {
   border-radius: 16px;
   max-width: 360px;
   height: 420px;
-  background: url(../../../assets/images/liveInMoment_fitness.jfif) no-repeat;
+  background: url(../images/liveInMoment_fitness.jfif) no-repeat;
   background-position: center center;
 }
 
@@ -14060,7 +14060,7 @@ footer .footer-list-icon img {
   border-radius: 16px;
   max-width: 360px;
   height: 420px;
-  background: url(../../../assets/images/liveInMoment_relax.jfif) no-repeat;
+  background: url(../images/liveInMoment_relax.jfif) no-repeat;
   background-position: center center;
 }
 
@@ -14068,7 +14068,7 @@ footer .footer-list-icon img {
   border-radius: 16px;
   max-width: 360px;
   height: 420px;
-  background: url(../../../assets/images/liveInMoment_sculpture.jfif) no-repeat;
+  background: url(../images/liveInMoment_sculpture.jfif) no-repeat;
   background-position: center center;
 }
 
