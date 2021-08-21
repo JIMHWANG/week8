@@ -13994,7 +13994,7 @@ header .header-Trademark {
 }
 
 header .header-Trademark a {
-  background: url(../../../assets/images/DOYOGA-logo.png) no-repeat;
+  background: url(../../images/DOYOGA-logo.png);
   background-size: 96px 31px;
   text-indent: 101%;
   white-space: nowrap;
