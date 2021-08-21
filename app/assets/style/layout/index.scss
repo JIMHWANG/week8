@@ -1,5 +1,56 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.liveInMoment{
+  .container{
+    max-width: 1170px;
+    .liveInMoment-fitness{
+      border-radius: 16px;
+      max-width: 360px;
+      height: 420px;
+      background: url(../../../assets/images/liveInMoment_fitness.jfif) no-repeat;
+      background-position: center center;
+    }
+    .liveInMoment-relax{
+      border-radius: 16px;
+      max-width: 360px;
+      height: 420px;
+      background: url(../../../assets/images/liveInMoment_relax.jfif) no-repeat;
+      background-position: center center;
+    }
+    .liveInMoment-sculpture{
+      border-radius: 16px;
+      max-width: 360px;
+      height: 420px;
+      background: url(../../../assets/images/liveInMoment_sculpture.jfif) no-repeat;
+      background-position: center center;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .liveInMoment{
+    width: 750px;
+    margin-left: 10px;
+    .container{      
+      .liveInMoment-fitness{
+        h5{
+          font-size: 16px;
+        }
+        max-width: 210px;
+        height: 252px;
+      }
+      .liveInMoment-relax{
+        h5{
+          font-size: 16px;
+        }
+        max-width: 210px;
+        height: 252px;
+      }
+      .liveInMoment-sculpture{
+        h5{
+          font-size: 16px;
+        }
+        max-width: 210px;
+        height: 252px;
+      }
+    }
+  }
 }
