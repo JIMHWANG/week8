@@ -1,3 +1,68 @@
+.banner-doyoga{
+  background: url(../images/banner-doyaga-bg.jfif) no-repeat;
+  height: 582px;
+  background-position: bottom center;
+  background-size: 100vw auto;
+  .banner-doyoga-main{
+    top: 185px;
+    left: 180px;
+    .banner-doyoga-word{
+      width: 445px;
+    }
+    .banner-doyoga-btn{
+      .banner-doyoga-btn-order:hover{
+        background-color: #C0A4A5 !important;
+        color: #fff;
+        a:hover{
+          color: #fff;
+        }
+      }
+      .banner-doyoga-btn-introduction:hover{
+          background-color: #907A7B !important;
+          a{
+            color: #fff;
+          }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .banner-doyoga{
+    background-size: 100vw 100%;
+    .banner-doyoga-main{
+      left: 39px;
+    }
+  }
+}
+
+@media (max-width: 376px){
+  .banner-doyoga{
+    background: url(../images/banner-doyaga-bg.jfif) no-repeat;
+    height: 560px;
+    background-position: bottom center;
+    .banner-doyoga-main{
+      top: 175px;
+      left: 15px;
+      .banner-doyoga-word{
+        width: 345px;
+        h2{
+          font-size: 28px !important;
+          margin-bottom: 2px;
+        }
+        p:nth-child(1){
+          margin-bottom: 10px;
+        }
+        p:nth-child(3){
+          font-size: 20px !important;
+          line-height: 1.8 !important;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+}
+
 .liveInMoment{
   .container{
     max-width: 1170px;
