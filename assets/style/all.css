@@ -9278,6 +9278,10 @@ fieldset:disabled .btn {
   font-size: calc(1.35rem + 1.2vw) !important;
 }
 
+.fs-8 {
+  font-size: 0.875rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -14179,6 +14183,58 @@ footer .footer-list-icon img {
   .liveInMoment .container .liveInMoment-sculpture h5, .liveInMoment .container .liveInMoment-sculpture .h5 {
     font-size: 16px;
   }
+}
+
+.comfortable-room {
+  width: 100vw;
+}
+
+.comfortable-room .comfortable-room-pic img {
+  border-radius: 16px;
+  width: 350px;
+  height: 444px;
+}
+
+.comfortable-room .comfortable-room-sm-pic img {
+  border-radius: 16px;
+  width: 160px;
+  height: 207px;
+}
+
+.introduction {
+  color: #907A7B;
+  width: 445px;
+}
+
+.introduction h3, .introduction .h3 {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.introduction p {
+  color: #C0A4A5;
+  margin-bottom: 24px;
+}
+
+.introduction a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introduction a span {
+  margin-left: 11px;
+}
+
+.experience .container {
+  width: 1130px;
+}
+
+.experience .container .card {
+  border-radius: 16px !important;
 }
 
 /*# sourceMappingURL=all.css.map */
