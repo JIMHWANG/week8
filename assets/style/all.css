@@ -9274,6 +9274,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: calc(1.35rem + 1.2vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -13922,6 +13926,9 @@ fieldset:disabled .btn {
   .fs-4 {
     font-size: 1.5rem !important;
   }
+  .fs-7 {
+    font-size: 2.25rem !important;
+  }
 }
 
 @media print {
@@ -13988,6 +13995,11 @@ time, mark, .mark, audio, video {
   /* 	vertical-align: baseline; */
 }
 
+.btn {
+  border: none;
+  padding: 8px 16px;
+}
+
 header .header-Trademark {
   width: 96px;
   height: 31px;
@@ -14042,6 +14054,75 @@ footer .footer-list-icon {
 footer .footer-list-icon img {
   width: 24px;
   height: 24px;
+}
+
+.banner-doyoga {
+  background: url(../images/banner-doyaga-bg.jfif) no-repeat;
+  height: 582px;
+  background-position: bottom center;
+  background-size: 100vw auto;
+}
+
+.banner-doyoga .banner-doyoga-main {
+  top: 185px;
+  left: 180px;
+}
+
+.banner-doyoga .banner-doyoga-main .banner-doyoga-word {
+  width: 445px;
+}
+
+.banner-doyoga .banner-doyoga-main .banner-doyoga-btn .banner-doyoga-btn-order:hover {
+  background-color: #C0A4A5 !important;
+  color: #fff;
+}
+
+.banner-doyoga .banner-doyoga-main .banner-doyoga-btn .banner-doyoga-btn-order:hover a:hover {
+  color: #fff;
+}
+
+.banner-doyoga .banner-doyoga-main .banner-doyoga-btn .banner-doyoga-btn-introduction:hover {
+  background-color: #907A7B !important;
+}
+
+.banner-doyoga .banner-doyoga-main .banner-doyoga-btn .banner-doyoga-btn-introduction:hover a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .banner-doyoga {
+    background-size: 100vw 100%;
+  }
+  .banner-doyoga .banner-doyoga-main {
+    left: 39px;
+  }
+}
+
+@media (max-width: 376px) {
+  .banner-doyoga {
+    background: url(../images/banner-doyaga-bg.jfif) no-repeat;
+    height: 560px;
+    background-position: bottom center;
+  }
+  .banner-doyoga .banner-doyoga-main {
+    top: 175px;
+    left: 15px;
+  }
+  .banner-doyoga .banner-doyoga-main .banner-doyoga-word {
+    width: 345px;
+  }
+  .banner-doyoga .banner-doyoga-main .banner-doyoga-word h2, .banner-doyoga .banner-doyoga-main .banner-doyoga-word .h2 {
+    font-size: 28px !important;
+    margin-bottom: 2px;
+  }
+  .banner-doyoga .banner-doyoga-main .banner-doyoga-word p:nth-child(1) {
+    margin-bottom: 10px;
+  }
+  .banner-doyoga .banner-doyoga-main .banner-doyoga-word p:nth-child(3) {
+    font-size: 20px !important;
+    line-height: 1.8 !important;
+    margin-bottom: 16px;
+  }
 }
 
 .liveInMoment .container {
