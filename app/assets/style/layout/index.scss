@@ -158,6 +158,24 @@
   }
 }
 
+.plan{
+  .container{
+    max-width: 1140px;
+    .plan-choose{
+      .card{
+        width: 350px !important;
+        height: 497px;
+        border-radius: 16px;
+        border: 2px solid #C0A4A5;
+        img{
+          border-radius: 16px 16px 0 0;
+          height: 230px;
+        }
+      }
+    }
+  }
+}
+
 .experience{
   .container{
     width: 1130px;
