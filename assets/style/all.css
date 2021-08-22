@@ -14004,6 +14004,10 @@ time, mark, .mark, audio, video {
   padding: 8px 16px;
 }
 
+.btn-lg, .btn-group-lg > .btn {
+  border: none;
+}
+
 header .header-Trademark {
   width: 96px;
   height: 31px;
@@ -14227,6 +14231,22 @@ footer .footer-list-icon img {
 
 .introduction a span {
   margin-left: 11px;
+}
+
+.plan .container {
+  max-width: 1140px;
+}
+
+.plan .container .plan-choose .card {
+  width: 350px !important;
+  height: 497px;
+  border-radius: 16px;
+  border: 2px solid #C0A4A5;
+}
+
+.plan .container .plan-choose .card img {
+  border-radius: 16px 16px 0 0;
+  height: 230px;
 }
 
 .experience .container {
