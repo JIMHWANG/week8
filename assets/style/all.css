@@ -9282,6 +9282,10 @@ fieldset:disabled .btn {
   font-size: 0.875rem !important;
 }
 
+.fs-9 {
+  font-size: calc(1.4rem + 1.8vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -13932,6 +13936,9 @@ fieldset:disabled .btn {
   }
   .fs-7 {
     font-size: 2.25rem !important;
+  }
+  .fs-9 {
+    font-size: 2.75rem !important;
   }
 }
 
