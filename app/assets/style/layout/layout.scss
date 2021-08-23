@@ -51,9 +51,21 @@ footer{
     }
     .footer-list-icon{
         width: 88px;
-        img{
-            width: 24px;
-            height: 24px;
+        i{
+            font-size: 24px;
         }
     }
 }
+
+@media (max-width: 376px){
+    footer{
+        .footer-list{
+            .footer-list-info{
+                height: 159px;
+                ul{
+                    height: 120px;
+                }
+            }
+        }
+    }
+  }
