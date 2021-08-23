@@ -14059,9 +14059,17 @@ footer .footer-list-icon {
   width: 88px;
 }
 
-footer .footer-list-icon img {
-  width: 24px;
-  height: 24px;
+footer .footer-list-icon i {
+  font-size: 24px;
+}
+
+@media (max-width: 376px) {
+  footer .footer-list .footer-list-info {
+    height: 159px;
+  }
+  footer .footer-list .footer-list-info ul {
+    height: 120px;
+  }
 }
 
 .banner-doyoga {
