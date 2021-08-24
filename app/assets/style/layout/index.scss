@@ -120,6 +120,30 @@
   }
 }
 
+.teacher{
+  .container{
+    max-width: 1160px;
+    .teacher-img{
+      img{
+        width: 540px;
+        height: 628px;
+        border-radius: 16px;
+      }
+    }
+    .teacher-content{
+      .teacher-content-card{
+        height: 450px;
+        .card{
+          border-radius: 16px;
+        }
+        .card:nth-child(1){
+          margin-left: -95px;
+        }
+      }
+    }
+  }
+}
+
 .comfortable-room{
   width: 100vw;
   .comfortable-room-pic{
