@@ -123,6 +123,28 @@
   }
 }
 
+.teacher .container {
+  max-width: 1160px;
+}
+
+.teacher .container .teacher-img img {
+  width: 540px;
+  height: 628px;
+  border-radius: 16px;
+}
+
+.teacher .container .teacher-content .teacher-content-card {
+  height: 450px;
+}
+
+.teacher .container .teacher-content .teacher-content-card .card {
+  border-radius: 16px;
+}
+
+.teacher .container .teacher-content .teacher-content-card .card:nth-child(1) {
+  margin-left: -95px;
+}
+
 .comfortable-room {
   width: 100vw;
 }
