@@ -182,6 +182,19 @@
   }
 }
 
+.course{
+  .course-introduction-content{
+    width: 445px;
+  }
+  .swiper-wrapper{
+    width: 445px;
+    height: 445px;
+    img{
+      border-radius: 16px;
+    }
+  }
+}
+
 .plan{
   .container{
     max-width: 1140px;
