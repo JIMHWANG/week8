@@ -179,7 +179,7 @@
 }
 
 .comfortable-room {
-  width: 100vw;
+  max-width: 1150px;
 }
 
 .comfortable-room .comfortable-room-pic img {
@@ -194,9 +194,30 @@
   height: 207px;
 }
 
+@media (max-width: 768px) {
+  .comfortable-room .comfortable-room-pic img {
+    width: 210px;
+    height: 266px;
+  }
+  .comfortable-room .comfortable-room-sm-pic img {
+    width: 90px;
+    height: 117px;
+  }
+}
+
+@media (max-width: 376px) {
+  .comfortable-room .introduction-sm img {
+    width: 165px;
+    height: 210px;
+    border-radius: 16px;
+  }
+  .comfortable-room .introduction-sm img:nth-child(1) {
+    margin-right: 15px;
+  }
+}
+
 .introduction {
   color: #907A7B;
-  width: 445px;
 }
 
 .introduction h3 {
@@ -207,6 +228,7 @@
 .introduction p {
   color: #C0A4A5;
   margin-bottom: 24px;
+  width: 445px;
 }
 
 .introduction a {
@@ -220,6 +242,12 @@
 
 .introduction a span {
   margin-left: 11px;
+}
+
+@media (max-width: 768px) {
+  .introduction p {
+    width: 330px;
+  }
 }
 
 .course .course-introduction-content {
