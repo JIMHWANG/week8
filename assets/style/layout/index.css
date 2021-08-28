@@ -263,6 +263,20 @@
   border-radius: 16px;
 }
 
+@media (max-width: 768px) {
+  .course .course-introduction-content {
+    width: 330px;
+  }
+  .course .course-rwd-img {
+    height: 324px;
+  }
+  .course .course-rwd-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+  }
+}
+
 .plan .container {
   max-width: 1140px;
 }
