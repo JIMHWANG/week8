@@ -134,10 +134,55 @@
       .teacher-content-card{
         height: 450px;
         .card{
+          width: 540px;
           border-radius: 16px;
         }
         .card:nth-child(1){
+          width: 635px;
           margin-left: -95px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .teacher{
+    .container{
+      .teacher-content{
+        p:nth-child(2){
+          width: 450px;
+        }
+        .teacher-content-card{
+          position: relative;
+          left: 80px;
+        }
+      }
+    }
+  }  
+}
+
+@media (max-width: 376px){
+  .teacher{
+    .container{
+      .teacher-content{
+        p:nth-child(2){
+          width: 345px;
+        }
+        .teacher-content-card{
+          height: 345px;
+          left:0px;
+          .card{
+            width: 345px;
+            img{
+              width: 48px;
+              height: 48px;
+            }
+          }
+          .card:nth-child(1){
+            width: 345px;
+            margin-left: 0px;
+          }
         }
       }
     }
