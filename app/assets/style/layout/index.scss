@@ -150,7 +150,7 @@
   .teacher{
     .container{
       .teacher-content{
-        p:nth-child(2){
+        .teacher-content-section{
           width: 450px;
         }
         .teacher-content-card{
@@ -166,7 +166,7 @@
   .teacher{
     .container{
       .teacher-content{
-        p:nth-child(2){
+        .teacher-content-section{
           width: 345px;
         }
         .teacher-content-card{
@@ -309,6 +309,31 @@
         img{
           border-radius: 16px 16px 0 0;
           height: 230px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:768px){
+  .plan{
+    .plan-md-layout{
+      .card{
+        border: 2px solid #C0A4A5;
+        border-radius: 16px;
+        height: 235px;
+        img{
+          width: 345px;
+          height: 231px;
+          border-radius: 16px 0 0 16px;
+        }
+        .card-body-introduction{
+          width: 297px;
+        }
+        .card-body-btn{
+          display: block;
+          width: 297px;
+          border-radius: 5px;
         }
       }
     }
