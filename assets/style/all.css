@@ -15480,4 +15480,37 @@ footer .footer-list-icon i {
   border-radius: 16px !important;
 }
 
+@media (max-width: 768px) {
+  .experience .experience-md-layout {
+    width: 690px;
+  }
+  .experience .experience-md-layout .swiper-slide {
+    width: auto;
+    text-align: left;
+  }
+  .experience .experience-md-layout .swiper-slide .swiper-slide-content .card {
+    border-radius: 16px;
+  }
+  .experience .experience-md-layout .swiper-slide .swiper-slide-content .card img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience .experience-layout {
+    width: 345px;
+  }
+  .experience .experience-layout .swiper-slide {
+    text-align: left;
+  }
+  .experience .experience-layout .swiper-slide .swiper-slide-content .card {
+    border-radius: 16px;
+  }
+  .experience .experience-layout .swiper-slide .swiper-slide-content .card img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
