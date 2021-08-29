@@ -15306,7 +15306,7 @@ footer .footer-list-icon i {
 }
 
 @media (max-width: 768px) {
-  .teacher .container .teacher-content p:nth-child(2) {
+  .teacher .container .teacher-content .teacher-content-section {
     width: 450px;
   }
   .teacher .container .teacher-content .teacher-content-card {
@@ -15316,7 +15316,7 @@ footer .footer-list-icon i {
 }
 
 @media (max-width: 376px) {
-  .teacher .container .teacher-content p:nth-child(2) {
+  .teacher .container .teacher-content .teacher-content-section {
     width: 345px;
   }
   .teacher .container .teacher-content .teacher-content-card {
@@ -15449,6 +15449,27 @@ footer .footer-list-icon i {
 .plan .container .plan-choose .card img {
   border-radius: 16px 16px 0 0;
   height: 230px;
+}
+
+@media (max-width: 768px) {
+  .plan .plan-md-layout .card {
+    border: 2px solid #C0A4A5;
+    border-radius: 16px;
+    height: 235px;
+  }
+  .plan .plan-md-layout .card img {
+    width: 345px;
+    height: 231px;
+    border-radius: 16px 0 0 16px;
+  }
+  .plan .plan-md-layout .card .card-body-introduction {
+    width: 297px;
+  }
+  .plan .plan-md-layout .card .card-body-btn {
+    display: block;
+    width: 297px;
+    border-radius: 5px;
+  }
 }
 
 .experience .container {
