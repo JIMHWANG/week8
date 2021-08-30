@@ -1,0 +1,42 @@
+.plan{
+    .container{
+      max-width: 1140px;
+      .plan-choose{
+        .card{
+          width: 350px !important;
+          height: 497px;
+          border-radius: 16px;
+          border: 2px solid #C0A4A5;
+          img{
+            border-radius: 16px 16px 0 0;
+            height: 230px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width:768px){
+    .plan{
+      .plan-md-layout{
+        .card{
+          border: 2px solid #C0A4A5;
+          border-radius: 16px;
+          height: 235px;
+          img{
+            width: 345px;
+            height: 231px;
+            border-radius: 16px 0 0 16px;
+          }
+          .card-body-introduction{
+            width: 297px;
+          }
+          .card-body-btn{
+            display: block;
+            width: 297px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }

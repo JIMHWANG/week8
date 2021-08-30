@@ -1,0 +1,11 @@
+.radius-list{
+    color: #907A7B;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+            border: 1px solid #907A7B;
+            border-radius: 50rem;
+        }
+    }
+}

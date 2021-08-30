@@ -1,0 +1,39 @@
+.plan{
+    .radius-list{
+        max-width: 540px;
+        margin: auto;
+        li{
+            background-color: #F5F0E7;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .plan{
+        .radius-list{
+            max-width: 330px;
+        }
+    }
+}
+
+@media (max-width:376px){
+    .plan{
+        .radius-list{
+            max-width: 345px;
+        }
+    }
+}
+
+.order-notice{
+    nav{
+        max-width: 445px;
+    }
+}
+
+@media (max-width:376px){
+    .order-notice{
+        nav{
+            max-width: 345px;
+        }
+    }
+}
