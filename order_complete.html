@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    完成預約 - DOYOGA
+  </title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* .swiper-slide {
+      width: 80%;
+    }
+
+    .swiper-slide:nth-child(2n) {
+      width: 60%;
+    }
+
+    .swiper-slide:nth-child(3n) {
+      width: 40%;
+    } */
+  </style>
+</head>
+
+<body>
+  <header class="bg-primary px-md-7 py-md-6 py-4 ps-3 pe-6">
+    <div class="header-main d-flex justify-content-between align-items-center">
+      <h1 class="header-Trademark">
+        <a href="index.html" class="d-block">
+          DOYAGA
+        </a>
+      </h1>
+      <nav class="header-nav text-secondary lh-lg d-lg-block d-md-none d-none">
+        <ul class="d-flex justify-content-between">
+          <!-- ul bootstrap有預設margin-bottom、padding的樣式 -->
+          <li><a href="#">課程介紹</a></li>
+          <li><a href="#">瑜珈空間</a></li>
+          <li><a href="#">當月課表</a></li>
+        </ul>
+      </nav>
+      <nav class="header-contact-order text-third d-lg-block d-md-none d-none">
+        <ul class="d-flex justify-content-between">
+          <li class="border border-third rounded-pill px-3 py-2"><a href="order_plan.html">立即預約</a></li>
+          <li class="border border-third rounded-pill px-3 py-2"><a href="#">聯絡我們</a></li>
+        </ul>
+      </nav>
+      <a class="d-lg-none fs-9 text-third" href="#">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  
+
+
+
+
+<div class="plan text-center mt-9 mb-lg-8 mb-md-5 text-third">
+    <h3 class="lh-base">立即預約</h3>
+    <nav class="radius-list mt-3 mb-8">
+        <ul>
+            <li class="px-lg-5 px-md-15 px-6 py-15"><a href="#">選擇方案</a></li>
+            <li class="px-lg-5 px-md-15 px-6 py-15"><a href="#">填寫資料</a></li>
+            <li class="bg-third text-success px-lg-5 px-md-15 px-6 py-15"><a href="#">完成預約</a></li>
+        </ul>
+    </nav>
+    <span class="order-complete-circle material-icons mb-6">
+        check_circle_outline
+    </span>
+    <h3 class="lh-base mb-8">已完成預約，以下是您的預約資訊:</h3>
+    <div class="order-information m-auto border border-third">
+        <div class="order-information-title d-flex justify-content-between bg-third text-success py-3 px-6">
+            <p>預約資訊</p>
+            <a href="#">
+                <span class="material-icons">
+                    expand_more
+                </span>
+            </a>
+        </div>
+        <nav class="order-information-content">
+            <ul class="d-flex border flex-column ps-6 py-3">
+                <li class="mb-3">您預約的是 <span class="fs-6">首次體驗課程-基礎</span></li>
+                <li>上課預約報到日：2021/07/21</li>
+                <li class="mt-2">預約人：Joanne Chen</li>
+                <li class="mt-2">年齡：18 歲</li>
+                <li class="mt-2">性別：女</li>
+                <li class="mt-2">電子信箱：example123@gmail.com</li>
+                <li class="mt-2">手機號碼：0912-345-678</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="order-notice text-third mb-16 position-relative mt-4">
+    <h3 class="text-center lh-base mb-2">上課注意事項</h3>
+    <p class="m-auto mb-8">第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。 如欲更改體驗時間請提前通知我們喔！</p>
+    <button class="btn bg-fourth text-success fs-5"><a href="index.html">返回首頁</a></button>
+</div>
+    <footer class="bg-third text-success">
+      <div
+        class="footer-coupon border-bottom border-success d-md-flex justify-content-between py-lg-8 px-lg-7 py-4 px-3">
+        <p class="fs-3 lh-base">現在訂閱，獲得課程優惠碼！</p>
+        <div class="footer-coupon-input fs-5 d-flex">
+          <input class="ps-3 border-0" type="email" placeholder="輸入您的電子信箱">
+          <input class="bg-fourth text-success border border-fourth py-lg-2 px-lg-3 pt-2" type="button" value="訂閱">
+        </div>
+      </div>
+      <div class="footer-list position-relative d-flex justify-content-between py-lg-8 px-lg-7 pt-4 pb-8 px-3">
+        <div class="footer-list-info d-flex flex-column justify-content-between">
+          <a href="#"><img src="./assets/images/DOYOGA.png" alt="DOYOGA"></a>
+          <ul class="d-flex flex-column justify-content-between">
+            <li><a href="#">課程介紹</a></li>
+            <li><a href="#">瑜珈空間</a></li>
+            <li><a href="#">當月課表</a></li>
+            <li class="d-md-none d-block">© 2021. All Rights Reserved.</li>
+          </ul>
+        </div>
+        <p class="footer-list-right-reserved d-md-flex align-items-end d-none">© 2021. All Rights Reserved.</p>
+        <div class="footer-list-icon">
+          <ul class="d-flex justify-content-between">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-line"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+</body>
+
+</html>

@@ -16258,14 +16258,29 @@ footer .footer-list-icon i {
   background-color: #F5F0E7;
 }
 
+.plan .order-complete-circle {
+  font-size: 40px;
+}
+
+.plan .order-information {
+  max-width: 540px;
+  text-align: left;
+}
+
 @media (max-width: 768px) {
   .plan .radius-list {
     max-width: 330px;
+  }
+  .plan .order-information {
+    max-width: 450px;
   }
 }
 
 @media (max-width: 376px) {
   .plan .radius-list {
+    max-width: 345px;
+  }
+  .plan .order-information {
     max-width: 345px;
   }
 }
@@ -16274,8 +16289,22 @@ footer .footer-list-icon i {
   max-width: 445px;
 }
 
+.order-notice p {
+  max-width: 350px;
+}
+
+.order-notice button {
+  width: 350px;
+  position: relative;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
 @media (max-width: 376px) {
-  .order-notice nav {
+  .order-notice nav, .order-notice p {
     max-width: 345px;
   }
 }
