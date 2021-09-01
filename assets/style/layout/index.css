@@ -123,6 +123,34 @@
   }
 }
 
+@media (max-width: 376px) {
+  .liveInMoment {
+    width: 345px;
+    margin-left: 15px;
+  }
+  .liveInMoment .container .liveInMoment-fitness {
+    max-width: 345px;
+    height: 420px;
+  }
+  .liveInMoment .container .liveInMoment-fitness h5 {
+    font-size: 20px;
+  }
+  .liveInMoment .container .liveInMoment-relax {
+    max-width: 345px;
+    height: 420px;
+  }
+  .liveInMoment .container .liveInMoment-relax h5 {
+    font-size: 20px;
+  }
+  .liveInMoment .container .liveInMoment-sculpture {
+    max-width: 345px;
+    height: 420px;
+  }
+  .liveInMoment .container .liveInMoment-sculpture h5 {
+    font-size: 20px;
+  }
+}
+
 .teacher .container {
   max-width: 1160px;
 }
